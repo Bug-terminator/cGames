@@ -177,11 +177,9 @@ int main()
     printf("-----------------------------------------------\n");
     Sleep(1000);
     hout = GetStdHandle(STD_OUTPUT_HANDLE);
-    // cin >> m >> n;
-    m = n = 24;
+    m = n = 24;//界面尺寸
 
-    int hard;
-    // cin >> hard;
+    int hard;//难度
     hard = 1;
 
     /*** 数据全部初始化，包括蛇长，位置，方向 ***/
@@ -243,6 +241,6 @@ int main()
         if (!go_ahead())
             break;
     }
-    // system("pause");
+
     return 0;
 }
